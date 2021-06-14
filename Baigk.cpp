@@ -5,7 +5,7 @@ void ComputeTriangle (double a,double b,double c,double &area,double &perimeter)
 	double S;
 	perimeter = a+b+c;
 	S = (perimeter/2)*((perimeter/2)-a)*((perimeter/2)-b)*((perimeter/2)-c);
-	area = sqrt(S);
+	area = sqrt(S); //hello
 }
 
 int main (){
